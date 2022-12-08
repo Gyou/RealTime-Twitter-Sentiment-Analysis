@@ -2,7 +2,8 @@
 
 This is a joint work with Xingyu Chen.
 
-This question asks us to streaming the tweets of a specific topic from Twitter, and then do sentiment analysis.
+### Introduction
+This project is to streaming the tweets of a specific topic from Twitter, and then do sentiment analysis.
 Please follow the steps here:
 1. First we need to run TwitterStreamToLocal.scala , this class will stream the tweets of a specific topic to local file folder (./josntweet/tweets/). Tweets will be stored as .json files. we have already show some example in that folder. You can have a look.
 To run  TwitterStreamToLocal.scala, you should specify the running parameters in this order:
@@ -42,3 +43,11 @@ or
 for linux like systems.
 
 Then you can go to http://localhost:5601 to start whatever visualizations you like.
+
+
+### Demo Results
+Smaple sentiment statistics in Eleastic Search:
+<img width="1440" alt="Screen Shot 2021-04-29 at 4 31 18 PM" src="https://user-images.githubusercontent.com/8926142/206560748-a76352e1-9b4d-4b3a-be45-e56a3329e81d.png">
+<img width="1434" alt="Screen Shot 2021-04-29 at 6 33 02 PM" src="https://user-images.githubusercontent.com/8926142/206560751-e79cb6c7-354c-4d0b-bd33-1613170d93b8.png">
+<img width="1438" alt="Screen Shot 2021-04-29 at 9 21 48 PM" src="https://user-images.githubusercontent.com/8926142/206560752-d6f70111-7890-4672-836c-71944df3e05d.png">
+
